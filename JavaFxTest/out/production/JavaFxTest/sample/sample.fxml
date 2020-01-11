@@ -1,0 +1,19 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane fx:controller="sample.TheController"
+          xmlns:fx="http://javafx.com/fxml"
+          alignment="center"
+          hgap="30"
+          vgap="30"
+          stylesheets= "/sample/dressing.css"
+>
+    <Button text = "Say 'Hello World'" onAction = "#sayHelloWorld"/>
+    
+    <Button text = "Say 'Goodbye World!" onAction = "#sayGoodbyeWorld"/>
+
+    <Label GridPane.rowIndex = "1" fx:id = "helloWorld" />
+</GridPane>

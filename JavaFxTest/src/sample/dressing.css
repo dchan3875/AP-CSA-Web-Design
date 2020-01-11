@@ -1,0 +1,9 @@
+.root
+{
+    -fx-background-color:gold;
+    -fx-font-size:12px;
+}
+.label
+{
+    -fx-font-size: 30px;
+}
